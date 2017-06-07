@@ -1,8 +1,29 @@
-# doc
+# LPT - TEIACARD - (Leiaute Integração Players Externos)
+ 
+ `VERSÃO 01.07`
 
+# 1. Introdução
 
-### REGISTRO HEADER DE ARQUIVO
+## 1.1. APRESENTAÇÃO DO DOCUMENTO
 
+Este manual apresenta um padrão para a troca de informações entre o
+TEIACARD e o ERP da empresa contratante. Baseado nas informações
+necessárias para a implantação da solução TEIACARD, o padrão define um
+conjunto de registros/campos que devem compor o arquivo de troca de
+informações.
+
+## 1.2. ESTRUTURA DO DOCUMENTO
+    
+O documento está dividido nos seguintes tópico:
+...
+
+## 1.3. MANUTENÇÃO DAS VERSÕES DO MANUAL
+
+A versão é identificada através de um código com a seguinte composição:
+
+# 2. Estrutura do Arquivo 
+
+## 2.1. COMPOSIÇÃO DO ARQUIVO
 
 O Arquivo de troca de informações entre a Empresa e o TEIACARD é composto
 de um registro header de arquivo, um ou mais lotes de Serviços e um registro
@@ -16,7 +37,6 @@ TEIACARD consolidem em um só arquivo todas as informações que desejam
 trocar entre si, deve ser previamente acordado entre cada Empresa e o
 TEIACARD.
 
-
 **Lote de Serviço**: Um lote de Serviço é composto de um registro header de lote, um ou mais registros detalhe, e um registro trailer de lote.
 
 > Um Lote de Serviço só pode conter um único tipo de Serviço
@@ -27,8 +47,12 @@ específicos, padrões para cada um dos tipos de Serviço.
 
 **Registros de Detalhe** : Um registro de detalhe é composto de um ou mais
 segmentos, dependendo do tipo de Serviço.
+...
 
-1. Cabeçalho do Arquivo.
+
+## 2.2. HEADER E TRAILER DO ARQUIVO
+
+### Cabeçalho do Arquivo.
 
 | ID   | Campo                                      | Dê    | Até   | Qnt.  | Decimal | Formato | Padrão | Descrição |
 | ---  | ---                                        | ---:  | ---:  | ---:  | ---:  | :---: | ---     | ---     |
@@ -48,7 +72,7 @@ segmentos, dependendo do tipo de Serviço.
 | 14.0 | Uso Reservado para a Empresa               | 140   | 179   | 40    | -     | A     |         | [GNR.014](#GNR.014) |
 | 15.0 | Uso Exclusivo Netunna                      | 180   | 300   | 121   | -     | A     |         | [GNR.004](#GNR.004) |
 
-2. Rodapé do Arquivo.
+### Rodapé do Arquivo.
 
 | ID   | Campo                                      | Dê    | Até   | Qnt.  | Decimal | Formato | Padrão | Descrição |
 | ---  | ---                                        | ---:  | ---:  | ---:  | ---:  | :---: | ---     | ---     |
@@ -59,6 +83,8 @@ segmentos, dependendo do tipo de Serviço.
 | 05.9 | Quantidade de Lotes do Arquivo             | 18    | 23    | 6     | -     | N     |         | [GNR.015](#GNR.015) |
 | 06.9 | Quantidade de Registros do Arquivo         | 24    | 29    | 6     | -     | N     |         | [GNR.016](#GNR.016) |
 | 07.9 | Uso Exclusivo Netunna                      | 30    | 300   | 271   | -     | A     |         | [GNR.004](#GNR.004) |
+
+# 3. Serviços
 
 2. Segmento V
 
@@ -72,7 +98,9 @@ segmentos, dependendo do tipo de Serviço.
 | 06.9 | Quantidade de Registros do Arquivo         | 24    | 29    | 6     | -     | N     |         | [GNR.016](#GNR.016) |
 | 07.9 | Uso Exclusivo Netunna                      | 30    | 300   | 271   | -     | A     |         | [GNR.004](#GNR.004) |
 
-3. Descrição dos campos
+# 4. Descrição dos campos
+
+## 4.1. DESCRIÇÃO DE CAMPOS – GENÉRICOS (GNR)
 
 | ID   | Nome | Descrição | 
 | ---  | ---  | ---  |
@@ -81,8 +109,15 @@ segmentos, dependendo do tipo de Serviço.
 | <a id="GNR.012">GNR.012</a> | Número sequencial do arquivo (NSA) | Número sequencial adotado e controlado pelo responsável pela geração do arquivo para ordenar a disposição dos arquivos encaminhados. Evoluir um número sequencial a cada header de arquivo | 
 | <a id="GNR.031">GNR.031</a> | Código da Bandeira | <p>Código que identifica a Bandeira do Cartão de Crédito ou de Débito utilizado para a realização da venda.</p><p>Ver [Tabela I](#TabelaI).</p>  | 
 
+# 5. Tabelas
 
-4. <a id="TabelaI">Tabela I - Bandeiras</a>
+## 5.1. Objetivo 
+
+Para uma melhor orientação ao usuário criamos neste tópico a lista de tabelas
+objeto de identificar exatamente o campo que precise de uma definição mais
+adequada.
+
+## 5.2. <a id="TabelaI">Tabela I - Bandeiras</a>
 
 | ID   | Nome | 
 | ---:  | ---  |
