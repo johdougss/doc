@@ -18,7 +18,7 @@
 | 09.0 | Código de Remessa ou de Retorno            | 113   | 113   | 1     | -     | N     |         | GNR.009 |
 | 10.0 | Data de Geração do Arquivo                 | 114   | 121   | 8     | -     | A     |         | GNR.010 |
 | 11.0 | Hora de Geração do Arquivo                 | 122   | 127   | 6     | -     | N     |         | GNR.011 |
-| 12.0 | Número Sequencial do Arquivo (NSA)         | 128   | 134   | 7     | -     | N     |         | GNR.012 |
+| 12.0 | Número Sequencial do Arquivo (NSA)         | 128   | 134   | 7     | -     | N     |         | [GNR.012](#GNR.012) |
 | 13.0 | Número da Versão do Leiaute do Arquivo     | 135   | 139   | 5     | -     | N     |         | GNR.013 |
 | 14.0 | Uso Reservado para a Empresa               | 140   | 179   | 40    | -     | A     |         | GNR.014 |
 | 15.0 | Uso Exclusivo Netunna                      | 180   | 300   | 121   | -     | A     | Brancos | GNR.004 |
@@ -40,4 +40,6 @@
 
 | ID   | Nome | Descrição | 
 | ---  | ---  | ---  |
-| GNR.012 | Número sequencial do arquivo (nsa) | Número sequencial adotado e controlado pelo responsável pela geração do arquivo para ordenar a disposição dos arquivos encaminhados. Evoluir um número sequencial a cada header de arquivo 
+| <a name="GNR.012">GNR.012</a> | Número sequencial do arquivo (nsa) | Número sequencial adotado e controlado pelo responsável pela geração do arquivo para ordenar a disposição dos arquivos encaminhados. Evoluir um número sequencial a cada header de arquivo 
+
+
