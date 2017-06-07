@@ -5,7 +5,7 @@
 
 1. Cabeçalho do Arquivo.
 
-| ID   | Campo                                      | Dê    | Até   | Tam   | Decimal | Formato | Padrão | Descrição |
+| ID   | Campo                                      | Dê    | Até   | Tamanho   | Decimal | Formato | Padrão | Descrição |
 | ---  | ---                                        | ---:  | ---:  | ---:  | ---   | ---   | ---     | ---     |
 | 01.0 | Código da Empresa                          | 1     | 3     | 3     | -     | N     |         | GNR.001 |
 | 02.0 | Lote de Serviço                            | 4     | 7     | 4     | -     | N     | 0000    | GNR.002 |
@@ -25,7 +25,7 @@
 
 2. Rodapé do Arquivo.
 
-| ID   | Campo                                      | Dê    | Até   | Tam   | Decimal | Formato | Padrão | Descrição |
+| ID   | Campo                                      | Dê    | Até   | Tamanho   | Decimal | Formato | Padrão | Descrição |
 | ---  | ---                                        | ---:  | ---:  | ---:  | ---   | ---   | ---     | ---     |
 | 01.9 | Código da Empresa                          | 1     | 3     | 3     | -     | N     |         | GNR.001 |
 | 02.9 | Lote de Serviço                            | 4     | 7     | 4     | -     | N     | 9999    | GNR.002 |
