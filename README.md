@@ -3,6 +3,11 @@
 
 ### REGISTRO HEADER DE ARQUIVO
 
+
+O Arquivo de troca de informações entre a Empresa e o TEIACARD é composto
+de um registro header de arquivo, um ou mais lotes de Serviços e um registro
+trailer de arquivo, conforme ilustra a figura abaixo:
+
 1. Cabeçalho do Arquivo.
 
 | ID   | Campo                                      | Dê    | Até   | Qnt.  | Decimal | Formato | Padrão | Descrição |
@@ -35,6 +40,17 @@
 | 06.9 | Quantidade de Registros do Arquivo         | 24    | 29    | 6     | -     | N     |         | [GNR.016](#GNR.016) |
 | 07.9 | Uso Exclusivo Netunna                      | 30    | 300   | 271   | -     | A     |         | [GNR.004](#GNR.004) |
 
+2. Segmento V
+
+| ID   | Campo                                      | Dê    | Até   | Qnt.  | Decimal | Formato | Padrão | Descrição |
+| ---  | ---                                        | ---:  | ---:  | ---:  | ---:  | :---: | ---     | ---     |
+| 01.9 | Código da Empresa                          | 1     | 3     | 3     | -     | N     |         | [GNR.001](#GNR.001) |
+| 02.9 | Lote de Serviço                            | 4     | 7     | 4     | -     | N     | 9999    | [GNR.002](#GNR.002) |
+| 03.9 | Tipo de Registro                           | 8     | 8     | 1     | -     | N     | 9       | [GNR.003](#GNR.003) |
+| 04.9 | Uso Exclusivo Netunna                      | 9     | 17    | 9     | -     | A     |         | [GNR.004](#GNR.004) |
+| 05.9 | Quantidade de Lotes do Arquivo             | 18    | 23    | 6     | -     | N     |         | [GNR.015](#GNR.015) |
+| 06.9 | Quantidade de Registros do Arquivo         | 24    | 29    | 6     | -     | N     |         | [GNR.016](#GNR.016) |
+| 07.9 | Uso Exclusivo Netunna                      | 30    | 300   | 271   | -     | A     |         | [GNR.004](#GNR.004) |
 
 3. Descrição dos campos
 
@@ -81,3 +97,4 @@
 | 029 | VEROCHEQUE | 
 | 030 | GREENCARD | 
 | 031 | VALECARD | 
+
