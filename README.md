@@ -4,7 +4,7 @@
 
 # 1. Introdução
 
-## 1.1. APRESENTAÇÃO DO DOCUMENTO
+## 1.1. Apresentação do documento
 
 Este manual apresenta um padrão para a troca de informações entre o
 TEIACARD e o ERP da empresa contratante. Baseado nas informações
@@ -12,12 +12,12 @@ necessárias para a implantação da solução TEIACARD, o padrão define um
 conjunto de registros/campos que devem compor o arquivo de troca de
 informações.
 
-## 1.2. ESTRUTURA DO DOCUMENTO
+## 1.2. Estrutura do documento
     
 O documento está dividido nos seguintes tópico:
 ...
 
-## 1.3. MANUTENÇÃO DAS VERSÕES DO MANUAL
+## 1.3. Manutenção das versões do manual
 
 A versão é identificada através de um código com a seguinte composição:
 
