@@ -9,7 +9,7 @@
 | ---  | ---                                        | ---:  | ---:  | ---:  | ---   | ---   | ---     | ---     |
 | 01.0 | Código da Empresa                          | 1     | 3     | 3     | -     | N     |         | GNR.001 |
 | 02.0 | Lote de Serviço                            | 4     | 7     | 4     | -     | N     | 0000    | GNR.002 |
-| 03.0 | Tipo de Registro                           | 8     | 8     | 1     | -     | N     | 0       | GNR.003 |
+| 03.0 | Tipo de Registro                           | 8     | 8     | 1     | -     | N     | 0       | [GNR.003](#GNR.003) |
 | 04.0 | Uso Exclusivo Netunna                      | 9     | 17    | 9     | -     | A     | Brancos | GNR.004 |
 | 05.0 | Tipo de Inscrição da Empresa               | 18    | 18    | 1     | -     | N     |         | GNR.005 |
 | 06.0 | Número de Inscrição da Empresa             | 19    | 32    | 14    | -     | N     |         | GNR.006 |
@@ -46,7 +46,7 @@
 | <a id="GNR.011">GNR.011</a> | Número sequencial do arquivo (nsa) | Número sequencial adotado e controlado pelo responsável pela geração do arquivo para ordenar a disposição dos arquivos encaminhados. Evoluir um número sequencial a cada header de arquivo | 
 | <a id="GNR.011">GNR.011</a> | Número sequencial do arquivo (nsa) | Número sequencial adotado e controlado pelo responsável pela geração do arquivo para ordenar a disposição dos arquivos encaminhados. Evoluir um número sequencial a cada header de arquivo | 
 | <a id="GNR.011">GNR.011</a> | Número sequencial do arquivo (nsa) | Número sequencial adotado e controlado pelo responsável pela geração do arquivo para ordenar a disposição dos arquivos encaminhados. Evoluir um número sequencial a cada header de arquivo | 
-| <a id="GNR.011">GNR.011</a> | Número sequencial do arquivo (nsa) | Número sequencial adotado e controlado pelo responsável pela geração do arquivo para ordenar a disposição dos arquivos encaminhados. Evoluir um número sequencial a cada header de arquivo | 
+| <a id="GNR.003">GNR.011</a> | Número sequencial do arquivo (nsa) | Número sequencial adotado e controlado pelo responsável pela geração do arquivo para ordenar a disposição dos arquivos encaminhados. Evoluir um número sequencial a cada header de arquivo | 
 | <a id="GNR.011">GNR.011</a> | Número sequencial do arquivo (nsa) | Número sequencial adotado e controlado pelo responsável pela geração do arquivo para ordenar a disposição dos arquivos encaminhados. Evoluir um número sequencial a cada header de arquivo | 
 | <a id="GNR.011">GNR.011</a> | Número sequencial do arquivo (nsa) | Número sequencial adotado e controlado pelo responsável pela geração do arquivo para ordenar a disposição dos arquivos encaminhados. Evoluir um número sequencial a cada header de arquivo | 
 | <a id="GNR.011">GNR.011</a> | Número sequencial do arquivo (nsa) | Número sequencial adotado e controlado pelo responsável pela geração do arquivo para ordenar a disposição dos arquivos encaminhados. Evoluir um número sequencial a cada header de arquivo | 
