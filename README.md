@@ -34,3 +34,10 @@
 | 05.9 | Quantidade de Lotes do Arquivo             | 18    | 23    | 6     | -     | N     |         | GNR.015 |
 | 06.9 | Quantidade de Registros do Arquivo         | 24    | 29    | 6     | -     | N     |         | GNR.016 |
 | 07.9 | Uso Exclusivo Netunna                      | 30    | 300   | 271   | -     | A     |         | GNR.004 |
+
+
+3. Descrição dos campos
+
+| ID   | Nome | Descrição | 
+| ---  | ---  | ---  |
+| GNR.012 | Número sequencial do arquivo (nsa) | Número sequencial adotado e controlado pelo responsável pela geração do arquivo para ordenar a disposição dos arquivos encaminhados. Evoluir um número sequencial a cada header de arquivo 
