@@ -8,6 +8,8 @@ O Arquivo de troca de informações entre a Empresa e o TEIACARD é composto
 de um registro header de arquivo, um ou mais lotes de Serviços e um registro
 trailer de arquivo, conforme ilustra a figura abaixo:
 
+[[https://github.com/johnathansantos/doc/blob/master/composicao-arquivo.png|alt=octocat]]
+
 1. Cabeçalho do Arquivo.
 
 | ID   | Campo                                      | Dê    | Até   | Qnt.  | Decimal | Formato | Padrão | Descrição |
