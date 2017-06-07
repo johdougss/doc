@@ -24,7 +24,8 @@ TEIACARD.
 Os registros `HEADER (1)` e `TRAILER (3)` de `LOTE` e os de `DETALHE (2)` são
 compostos de campos fixos, comuns a todos os tipos de SERVIÇO, e campos
 específicos, padrões para cada um dos tipos de Serviço.
-REGISTROS DE DETALHE: Um registro de detalhe é composto de um ou mais
+
+**Registros de Detalhe** : Um registro de detalhe é composto de um ou mais
 segmentos, dependendo do tipo de Serviço.
 
 1. Cabeçalho do Arquivo.
