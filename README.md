@@ -40,6 +40,6 @@
 
 | ID   | Nome | Descrição | 
 | ---  | ---  | ---  |
-| <a name="GNR.012">GNR.012</a> | Número sequencial do arquivo (nsa) | Número sequencial adotado e controlado pelo responsável pela geração do arquivo para ordenar a disposição dos arquivos encaminhados. Evoluir um número sequencial a cada header de arquivo 
+| <a id="GNR.012">GNR.012</a> | Número sequencial do arquivo (nsa) | Número sequencial adotado e controlado pelo responsável pela geração do arquivo para ordenar a disposição dos arquivos encaminhados. Evoluir um número sequencial a cada header de arquivo 
 
 
