@@ -40,7 +40,7 @@
 
 | ID   | Nome | Descrição | 
 | ---  | ---  | ---  |
-| <a id="GNR.001">GNR.001</a> | Código da Empresa | Código que identifica a empresa no TEiACARD. Quando exista um  conjunto de empresas iniciar com código “001” e assim por diante consecutivamente. | 
-| <a id="GNR.002">GNR.002</a> | Lote de Serviço | <p>Número sequencial para identificar univocamente um lote de serviço. Criado e controlado pelo responsável pela geração magnética dos dados contidos no arquivo.</p><p>Preencher com '0001' para o primeiro lote do arquivo. Para os demais: número do lote anterior acrescido de 1. O número não poderá ser repetido dentro do arquivo. </p> <p>Se registro for Header do Arquivo preencher com '0000'</p><p>Se registro for Trailer do Arquivo preencher com '9999'</p> | 
+| <a id="GNR.001">GNR.001</a> | Código da Empresa | Código que identifica a empresa no TEiACARD. Quando exista um  conjunto de empresas iniciar com código `001` e assim por diante consecutivamente. | 
+| <a id="GNR.002">GNR.002</a> | Lote de Serviço | <p>Número sequencial para identificar univocamente um lote de serviço. Criado e controlado pelo responsável pela geração magnética dos dados contidos no arquivo.</p><p>Preencher com `0001` para o primeiro lote do arquivo. Para os demais: número do lote anterior acrescido de 1. O número não poderá ser repetido dentro do arquivo. </p> <p>Se registro for Header do Arquivo preencher com `0000`</p><p>Se registro for Trailer do Arquivo preencher com `9999`</p> | 
 | <a id="GNR.012">GNR.012</a> | Número sequencial do arquivo (nsa) | Número sequencial adotado e controlado pelo responsável pela geração do arquivo para ordenar a disposição dos arquivos encaminhados. Evoluir um número sequencial a cada header de arquivo | 
 
