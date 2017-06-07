@@ -10,6 +10,22 @@ trailer de arquivo, conforme ilustra a figura abaixo:
 
 ![image](https://github.com/johnathansantos/doc/blob/master/composicao-arquivo.png)
 
+Com a estrutura apresentada, um único arquivo pode conter vários lotes de
+Serviços distintos. Este procedimento, que permite com que a Empresa e o
+TEIACARD consolidem em um só arquivo todas as informações que desejam
+trocar entre si, deve ser previamente acordado entre cada Empresa e o
+TEIACARD.
+
+**Lote de Serviço**: Um lote de Serviço é composto de um registro header de lote, um ou mais registros detalhe, e um registro trailer de lote.
+
+> Um Lote de Serviço só pode conter um único tipo de Serviço
+
+> Os registros `HEADER (1)` e `TRAILER (3)` de `LOTE` e os de `DETALHE (2)` são
+> compostos de campos fixos, comuns a todos os tipos de SERVIÇO, e campos
+> específicos, padrões para cada um dos tipos de Serviço.
+> REGISTROS DE DETALHE: Um registro de detalhe é composto de um ou mais
+> segmentos, dependendo do tipo de Serviço.
+
 1. Cabeçalho do Arquivo.
 
 | ID   | Campo                                      | Dê    | Até   | Qnt.  | Decimal | Formato | Padrão | Descrição |
