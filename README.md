@@ -124,7 +124,7 @@ segmentos, dependendo do tipo de Serviço.
 
 ## 4.1. DESCRIÇÃO DE CAMPOS – GENÉRICOS (GNR)
 
-<a id="GNR.001">GNR.001</a> - **Código da Empresa**
+##### <a id="GNR.001">GNR.001</a> - **Código da Empresa**
 
 Código que identifica a empresa no TEiACARD. Quando exista um  conjunto de empresas iniciar com código `001` e assim por diante consecutivamente.
 
