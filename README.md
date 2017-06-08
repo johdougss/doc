@@ -168,13 +168,29 @@ Domínio:
 
 #### <a id="GNR.006">GNR.006</a> - Tipo de inscrição da empresa
 
+Número de inscrição da Empresa ou Pessoa Física perante uma
+Instituição governamental.
+
+#### <a id="GNR.007">GNR.007</a> - Nome da Empresa
+
+Nome que identifica a pessoa, física ou jurídica, a qual se quer fazer referência.
+
+#### <a id="GNR.008">GNR.008</a> - Nome da Adquirente
+
+Nome que identifica a Adquirente à qual pertencem as
+informações que estão sendo tratadas no arquivo eletrônico.
+
+Ver [Tabela III](#TabelaIII). 
+
 #### <a id="GNR.012">GNR.012</a> - Número sequencial do arquivo (NSA) 
 
 Número sequencial adotado e controlado pelo responsável pela geração do arquivo para ordenar a disposição dos arquivos encaminhados. Evoluir um número sequencial a cada header de arquivo 
 
 #### <a id="GNR.031">GNR.031</a> - Código da Bandeira 
 
-Código que identifica a Bandeira do Cartão de Crédito ou de Débito utilizado para a realização da venda.</p><p>Ver [Tabela I](#TabelaI). 
+Código que identifica a Bandeira do Cartão de Crédito ou de Débito utilizado para a realização da venda.
+
+Ver [Tabela I](#TabelaI). 
 
 # 5. Tabelas
 
@@ -220,3 +236,74 @@ adequada.
 | 030 | GREENCARD | 
 | 031 | VALECARD | 
 
+## 5.3. <a id="TabelaII">Tabela II - Meios de Captura</a>
+
+| ID   | Nome | 
+| ---: | ---  |
+| 001  | POS – POINT OF SALES | 
+| 002  | PDV – PONTO DE VENDA OU TEF (TRANSFERENCIA ELETRÔNICA DE FUNDOS | 
+| 003  | E-COMMERCE (COMÉRCIO ELETRÔNICO) | 
+| 004  | EDI – ELETRONIC DATA INTERCHANGE | 
+| 005  | ADP/BSP – EMPRESA CAPTURADORA | 
+| 006  | MANUAL | 
+| 007  | URA / CVA | 
+| 008  | MOBILE | 
+| 009  | TO/SenffOffice | 
+| 010  | MOEDEIRO ELETRÔNICO EM REDE | 
+| 011  | CIELO POS (AMEX) | 
+| 012  | CIELO TEF (AMEX) | 
+| 013  | CIELO E-COMMERCE (AMEX) | 
+| 014  | REDE POS (AMEX) | 
+| 015  | REDE TEF (AMEX) | 
+| 016  | REDE E-COMMERCE (AMEX) | 
+| 017  | GETNET POS (AMEX) | 
+| 018  | GETNET TEF (AMEX) | 
+| 019  | GETNET E-COMMERCE (AMEX) | 
+| 020  | POS ISSO (BIN) | 
+| 021  | POS GPRS Mobile (BIN) | 
+| 022  | Mobile POS | 
+| 023  | POS Desktop (BIN) | 
+| 024  | POS Eth + Desktop (BIN) | 
+| 025  | POS GPRS Desktop (BIN) | 
+| 026  | POS GPRS Dt+Dial+Eth (BIN) | 
+| 027  | TEF PINPAD USB (BIN) | 
+| 028  | TEF Dial discado (BIN) | 
+| 029  | TEF dedicada (BIN) | 
+| 030  | TEF IP (BIN) | 
+| 031  | E-Commerce Gateway 1 (BIN) | 
+| 032  | E-Commerce Gateway 2 (BIN) | 
+| 033  | E-Commerce Gateway 3 (BIN) | 
+| 034  | E-Commerce Gateway 4 (BIN) | 
+| 035  | E-Commerce Gateway 5 (BIN) | 
+| 036  | E-Commerce Subadquirente (BIN) | 
+| 037  | E-Commerce IPG (BIN) | 
+
+## 5.4. <a id="TabelaIII">Tabela III - Adquirentes</a>
+
+| ID    | Nome | 
+| ---:  | ---  |
+|       | CIELO | 
+|       | REDE | 
+|       | AMEX | 
+|       | GETNET SANTANDER | 
+|       | VERO BANRISUL | 
+|       | LOSANGO | 
+|       | ELAVON | 
+|       | STONE | 
+|       | CALCARD | 
+|       | ADYEN | 
+|       | SENFF | 
+|       | FIRST DATA - BIN | 
+|       | GLOBAL PAYMENTS | 
+|       | SODEXO (BENEFÍCIOS) | 
+|       | TICKET (BENEFÍCIOS) | 
+|       | VR (BENEFÍCIOS) | 
+|       | GOODCARD | 
+|       | GREENCARD | 
+|       | BIQ (BENEFÍCIOS) | 
+|       | PERSONAL (BENEFÍCIO) | 
+|       | TRIO (BENEFÍCIOS) | 
+|       | VEROCHEQUE | 
+|       | VEGA (BENEFÍCIOS) | 
+|       | FACISC | 
+|       | SINCOMERCIO | 
