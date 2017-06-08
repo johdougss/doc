@@ -49,15 +49,9 @@ específicos, padrões para cada um dos tipos de Serviço.
 segmentos, dependendo do tipo de Serviço.
 ...
 
-
 ## 2.2. HEADER E TRAILER DO ARQUIVO
 
 ### Cabeçalho do Arquivo.
-
-Join the chat room on [Gitter](https://gitter.im/Laradock/laradock) and get help and support from the community.
-
-You can as well can open an [issue](https://github.com/laradock/laradock/issues) on Github (will be labeled as Question) and discuss it with people on [Gitter](https://gitter.im/Laradock/laradock).
-
 
 | ID   | Campo                                      | Dê    | Até   | Qnt.  | Decimal | Formato | Padrão | Descrição |
 | ---  | ---                                        | ---:  | ---:  | ---:  | ---:  | :---: | ---     | ---     |
@@ -95,13 +89,26 @@ You can as well can open an [issue](https://github.com/laradock/laradock/issues)
 
 | ID   | Campo                                      | Dê    | Até   | Qnt.  | Decimal | Formato | Padrão | Descrição |
 | ---  | ---                                        | ---:  | ---:  | ---:  | ---:  | :---: | ---     | ---     |
-| 01.9 | Código da Empresa                          | 1     | 3     | 3     | -     | N     |         | [GNR.001](#GNR.001) |
-| 02.9 | Lote de Serviço                            | 4     | 7     | 4     | -     | N     | 9999    | [GNR.002](#GNR.002) |
-| 03.9 | Tipo de Registro                           | 8     | 8     | 1     | -     | N     | 9       | [GNR.003](#GNR.003) |
-| 04.9 | Uso Exclusivo Netunna                      | 9     | 17    | 9     | -     | A     |         | [GNR.004](#GNR.004) |
-| 05.9 | Quantidade de Lotes do Arquivo             | 18    | 23    | 6     | -     | N     |         | [GNR.015](#GNR.015) |
-| 06.9 | Quantidade de Registros do Arquivo         | 24    | 29    | 6     | -     | N     |         | [GNR.016](#GNR.016) |
-| 07.9 | Uso Exclusivo Netunna                      | 30    | 300   | 271   | -     | A     |         | [GNR.004](#GNR.004) |
+| 01.2V | Código da Empresa                          | 1     | 3     | 3     | -     | N     |         | [GNR.001](#GNR.001) |
+| 02.2V | Lote de Serviço                            | 4     | 7     | 4     | -     | N     |         | [GNR.002](#GNR.002) |
+| 03.2V | Tipo de Registro                           | 8     | 8     | 1     | -     | N     | 2       | [GNR.003](#GNR.003) |
+| 04.2V | Tipo de Serviço                            | 9     | 10    | 2     | -     | N     |         | [GNR.017](#GNR.017) |
+| 05.2V | Número Sequencial do Registro no Lote      | 11    | 15    | 5     | -     | N     |         | [GNR.020](#GNR.020) |
+| 06.2V | Código do Segmento do Registro Detalhe     | 16    | 16    | 1     | -     | A     | V       | [GNR.021](#GNR.021) |
+| 07.2V | Uso Exclusivo Netunna                      | 17    | 17    | 1     | -     | A     |         | [GNR.004](#GNR.004) |
+| 08.2V | Tipo de Inscrição Empresa                  | 18    | 18    | 1     | -     | N     |         | [GNR.005](#GNR.005) |
+| 09.2V | Número de Inscrição da Empresa             | 19    | 34    | 14    | -     | N     |         | [GNR.006](#GNR.006) |
+| 10.2V | Código da Loja                             | 33    | 37    | 5     | -     | A     |         | [GNR.018](#GNR.018) |
+| 11.2V | Número do Estabelecimento na Adquirente    | 38    | 55    | 18    | -     | A     |         | [GNR.019](#GNR.019) |
+| 12.2V | Número do Caixa/Checkout                   | 56    | 61    | 6     | -     | A     |         | [GNR.022](#GNR.022) |
+| 13.2V | Número do PDV (Maquineta) na Adquirente    | 62    | 76    | 15    | -     | N     |         | [GNR.023](#GNR.023) |
+| 14.2V | Número do Cupom Fiscal / Número do Pedido  | 77    | 86    | 10    | -     | N     |         | [GNR.024](#GNR.024) |
+| 15.2V | Uso Exclusivo Netunna                      | 87    | 96    | 10    | -     | A     |         | [GNR.004](#GNR.004) |
+| 16.2V | Código da Autorização                      | 97    | 106   | 10    | -     | A     |         | [GNR.026](#GNR.026) |
+| 17.2V | Data da Venda                              | 107   | 114   | 8     | -     | N     |         | [GNR.027](#GNR.027) |
+| 18.2V | Hora da Venda                              | 115   | 120   | 6     | -     | N     |         | [GNR.028](#GNR.028) |
+| 19.2V | Valor Bruto da Venda                       | 121   | 130   | 10    | 2     | N     |         | [GNR.029](#GNR.029) |
+
 
 # 4. Descrição dos campos
 
