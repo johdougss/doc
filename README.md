@@ -97,8 +97,14 @@ de Retorno, conforme discriminados a seguir:
 
 | ID   | Segmentos Remessa | Segmentos Retorno |
 | ---  | --- | --- |
-| Vendas Crédito à Vista Rotativo  | V `Obrigatório` | V `Obrigatório` |
-|                                  |                 | B `Obrigatório` |
+| Vendas Crédito à Vista Rotativo | V `Obrigatório` | V `Obrigatório` </br> B `Obrigatório` |
+
+
+| Segmentos Remessa V `Obrigatório` |
+| ---  |
+| Vendas Crédito à Vista Rotativo |
+| Vendas Crédito Parcelado  |
+
 
 ## 2.2. HEADER E TRAILER DO ARQUIVO
 
