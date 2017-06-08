@@ -120,12 +120,12 @@ OBSERVAÇÕES
 Tamanho do Registro: O Tamanho do Registro é de `300 bytes`
 
 Alinhamento de Campos:
- - Campos Numéricos (N) = À direita, preenchidos com zeros à esquerda.
- - Campos Alfanuméricos (A) = À esquerda, preenchidos com brancos à direita.
+ - `Campos Numéricos (N)` = À direita, preenchidos com zeros à esquerda.
+ - `Campos Alfanuméricos (A)` = À esquerda, preenchidos com brancos à direita.
 
 Convenção:
- - Remessa = Fluxo de informações da Empresa (ERP) para o TEIACARD.
- - Retorno = Fluxo de informações do TEIACARD para a Empresa (ERP).
+ - `Remessa` = Fluxo de informações da Empresa (ERP) para o TEIACARD.
+ - `Retorno` = Fluxo de informações do TEIACARD para a Empresa (ERP).
 
 ## 2.2. HEADER E TRAILER DO ARQUIVO
 
@@ -163,7 +163,21 @@ Convenção:
 
 # 3. Serviços
 
-2. Segmento V
+## 3.1 VENDAS: crédito (à vista rotativo, parcelado)</br> débito (à vista, pré-datado)
+
+3.1.1 DESCRIÇÃO DO SERVIÇO
+
+Objetivo 
+
+O SERVIÇO VENDAS contempla as modalidades de CRÉDITO À VISTA (ROTATIVO),
+CRÉDITO PARCELADO, DÉBITO À VISTA e DÉBITO PRÉ-DATADO e tem por objetivo
+a integração de informações relacionadas às vendas diárias realizadas pela
+empresa nestas modalidades.
+...
+
+### 3.1.2. VENDAS – REMESSA / RETORNO
+
+3. Segmento V
 
 | ID   | Campo                                      | Dê    | Até   | Qnt.  | Decimal | Formato | Padrão | Descrição |
 | ---  | ------                                     | ---:  | ---:  | ---:  | ---:  | :---: | ---     | ---     |
