@@ -115,6 +115,17 @@ de Retorno, conforme discriminados a seguir:
 | Baixas Parcelas Vendas Débito Pré-Datado           |                  | B `Obrigatório`                       |
 | Baixas Vendas Débito à Vista                       |                  | B `Obrigatório`                       |
 
+OBSERVAÇÕES
+
+Tamanho do Registro: O Tamanho do Registro é de `300 bytes`
+
+Alinhamento de Campos:
+ - Campos Numéricos (N) = À direita, preenchidos com zeros à esquerda.
+ - Campos Alfanuméricos (A) = À esquerda, preenchidos com brancos à direita.
+
+Convenção:
+ - Remessa = Fluxo de informações da Empresa (ERP) para o TEIACARD.
+ - Retorno = Fluxo de informações do TEIACARD para a Empresa (ERP).
 
 ## 2.2. HEADER E TRAILER DO ARQUIVO
 
