@@ -95,15 +95,25 @@ em um ou mais lotes de Serviço, tanto nos fluxos de Remessa como nos fluxos
 de Retorno, conforme discriminados a seguir:
 
 
-| ID   | Segmentos Remessa | Segmentos Retorno |
+| ID   | Segmento Remessa | Segmento Retorno |
 | ---  | --- | --- |
-| Vendas Crédito à Vista Rotativo | V `Obrigatório` | V `Obrigatório` </br> B `Obrigatório` |
-
-
-| Segmentos Remessa V `Obrigatório` |
-| ---  |
-| Vendas Crédito à Vista Rotativo |
-| Vendas Crédito Parcelado  |
+| Vendas Crédito à Vista Rotativo                    | V `Obrigatório`  | V `Obrigatório` </br> P `Obrigatório` |
+| Vendas Crédito Parcelado                           | V `Obrigatório`  | V `Obrigatório` </br> P `Obrigatório` |
+| Vendas Débito à Vista                              | V `Obrigatório`  |                                       |
+| Vendas Débito Pré-Datado                           | V `Obrigatório`  | V `Obrigatório` </br> P `Obrigatório` |
+| Estornos Crédito à Vista Rotativo                  | X `Opcional`     | X `Obrigatório`                       |
+| Estornos Crédito Parcelado                         | X `Opcional`     | X `Obrigatório`                       |
+| Estornos Débito a Vista                            | X `Opcional`     | X `Obrigatório`                       |
+| Estornos Débito Pré-Datado                         | X `Opcional`     | X `Obrigatório`                       |
+| Ocorrências Crédito à Vista Rotativo               |                  | O `Obrigatório`                       |
+| Ocorrências Crédito Parcelado                      |                  | O `Obrigatório`                       |
+| Ocorrências Débito à Vista                         |                  | O `Obrigatório`                       |
+| Ocorrências Débito Pré-Datado                      |                  | O `Obrigatório`                       |
+| Ocorrências Ajustes                                |                  | O `Obrigatório`                       |
+| Baixas Parcelas Vendas Crédito à Vista Rotativo    |                  | B `Obrigatório`                       |
+| Baixas Parcelas Vendas Crédito Parcelado           |                  | B `Obrigatório`                       |
+| Baixas Parcelas Vendas Débito Pré-Datado           |                  | B `Obrigatório`                       |
+| Baixas Vendas Débito à Vista                       |                  | B `Obrigatório`                       |
 
 
 ## 2.2. HEADER E TRAILER DO ARQUIVO
