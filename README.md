@@ -54,7 +54,7 @@ segmentos, dependendo do tipo de Serviço.
 ### Cabeçalho do Arquivo.
 
 | ID   | Campo                                      | Dê    | Até   | Qnt.  | Decimal | Formato | Padrão | Descrição |
-| ---  | ---                                        | ---:  | ---:  | ---:  | ---:  | :---: | ---     | ---     |
+| ---  | ------                                     | ---:  | ---:  | ---:  | ---:  | :---: | ---     | ---     |
 | 01.0 | Código da Empresa                          | 1     | 3     | 3     | -     | N     |         | [GNR.001](#GNR.001) |
 | 02.0 | Lote de Serviço                            | 4     | 7     | 4     | -     | N     | 0000    | [GNR.002](#GNR.002) |
 | 03.0 | Tipo de Registro                           | 8     | 8     | 1     | -     | N     | 0       | [GNR.003](#GNR.003) |
@@ -74,7 +74,7 @@ segmentos, dependendo do tipo de Serviço.
 ### Rodapé do Arquivo.
 
 | ID   | Campo                                      | Dê    | Até   | Qnt.  | Decimal | Formato | Padrão | Descrição |
-| ---  | ---                                        | ---:  | ---:  | ---:  | ---:  | :---: | ---     | ---     |
+| ---  | ------                                     | ---:  | ---:  | ---:  | ---:  | :---: | ---     | ---     |
 | 01.9 | Código da Empresa                          | 1     | 3     | 3     | -     | N     |         | [GNR.001](#GNR.001) |
 | 02.9 | Lote de Serviço                            | 4     | 7     | 4     | -     | N     | 9999    | [GNR.002](#GNR.002) |
 | 03.9 | Tipo de Registro                           | 8     | 8     | 1     | -     | N     | 9       | [GNR.003](#GNR.003) |
@@ -88,7 +88,7 @@ segmentos, dependendo do tipo de Serviço.
 2. Segmento V
 
 | ID   | Campo                                      | Dê    | Até   | Qnt.  | Decimal | Formato | Padrão | Descrição |
-| ---  | ---                                        | ---:  | ---:  | ---:  | ---:  | :---: | ---     | ---     |
+| ---  | ------                                     | ---:  | ---:  | ---:  | ---:  | :---: | ---     | ---     |
 | 01.2V | Código da Empresa                         | 1     | 3     | 3     | -     | N     |         | [GNR.001](#GNR.001) |
 | 02.2V | Lote de Serviço                           | 4     | 7     | 4     | -     | N     |         | [GNR.002](#GNR.002) |
 | 03.2V | Tipo de Registro                          | 8     | 8     | 1     | -     | N     | 2       | [GNR.003](#GNR.003) |
@@ -165,6 +165,8 @@ Domínio:
 | ---  | ---                    |
 | 0    | CPF                    |
 | 1    | CGC / CNPJ             |
+
+#### <a id="GNR.006">GNR.006</a> - Tipo de inscrição da empresa
 
 #### <a id="GNR.012">GNR.012</a> - Número sequencial do arquivo (NSA) 
 
