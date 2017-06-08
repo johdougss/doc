@@ -15,7 +15,41 @@ informações.
 ## 1.2. Estrutura do documento
     
 O documento está dividido nos seguintes tópico:
-...
+
+ - INTRODUÇÃO: Apresenta uma visão geral do tipo de serviço disponível e
+o contexto em que ocorre, identificando os players de origem e de destino
+de cada fluxo de troca de informações.
+
+ - ESTRUTURA DO ARQUIVO: Define a composição do arquivo (header, lotes
+   de serviço e trailer), conceituando cada tipo de registro existente e
+   especificando a forma de utilização de cada um deles por tipo de serviço, e
+   apresenta o layout do header e do trailer de arquivo.
+
+ - SERVIÇO: Apresenta detalhadamente cada serviço disponível e o contexto
+   em que ocorrem, identificando os players de origem e de destino de cada
+   fluxo de troca de informações para a TRANSAÇÃO DE VENDAS COM
+   CARTÕES.
+  
+   - VENDAS CRÉDITO A VISTA ROTATIVO:
+   - VENDAS CRÉDITO PARCELADO:
+   - VENDAS DÉBITO A VISTA:
+   - VENDAS DÉBITO PRÉ-DATADO:
+   - ESTORNOS CRÉDITO A VISTA ROTATIVO:
+   - ESTORNOS CRÉDITO PARCELADO:
+   - ESTORNOS DÉBITO A VISTA:
+   - ESTORNOS DÉBITO PRÉ-DATADO:
+   - BAIXAS PARCELAS VENDAS CRÉDITO A VISTA ROTATIVO:
+   - BAIXAS PARCELAS VENDAS CRÉDITO PARCELADO:
+   - BAIXAS PARCELAS VENDAS DÉBITO A VISTA:
+   - BAIXA PARCELAS VENDAS DÉBITO PRÉ-DATADO:
+ - DESCRIÇÃO DOS CAMPOS: Conceitua todos os campos componentes do
+   layout dos registros utilizados em cada um dos tipos de serviço.
+   Em cada layout de registro apresentado, é especificado o código da
+   descrição de cada campo. Através deste código, deve-se acessar o tópico
+   “Descrição dos Campos” e buscar a descrição do campo que se deseja
+   consultar. As descrições de campos assinaladas com * antes do código,
+   merecem uma atenção especial. 
+  
 
 ## 1.3. Manutenção das versões do manual
 
@@ -307,3 +341,18 @@ adequada.
 |       | VEGA (BENEFÍCIOS) | 
 |       | FACISC | 
 |       | SINCOMERCIO | 
+
+## 5.5. <a id="TabelaIV">Tabela IV - Motivos de estorno (cancelamento)</a>
+
+| ID   | Nome | 
+| ---: | ---  |
+| 01   | TROCA | 
+| 02   | DEVOLUÇÃO PARCIAL | 
+| 03   | DEVOLUÇÃO TOTAL | 
+| 04   | FALTA DE MERCADORIA | 
+| 05   | CANCELAMENTO DE PEDIDO | 
+| 06   | EXTRAVIO / ROUBO | 
+| 07   | INDENIZAÇÃO FRETE | 
+| 08   | ESTORNO PROMOÇÕES | 
+| 09   | VENDA AUTORIZADA PELA ADQUIRENTE EM DUPLICIDADE | 
+| 10   | VENDA CANCELADA POR ERRO DE COMUNICAÇÃO NA AUTORIZAÇÃO | 
