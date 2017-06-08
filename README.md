@@ -124,10 +124,24 @@ segmentos, dependendo do tipo de Serviço.
 
 ## 4.1. DESCRIÇÃO DE CAMPOS – GENÉRICOS (GNR)
 
+<a id="GNR.001">GNR.001</a> - **Código da Empresa**
+
+Código que identifica a empresa no TEiACARD. Quando exista um  conjunto de empresas iniciar com código `001` e assim por diante consecutivamente.
+
+<a id="GNR.002">GNR.002</a> - **Lote de Serviço** 
+
+Número sequencial para identificar univocamente um lote de serviço. Criado e controlado pelo responsável pela geração magnética dos dados contidos no arquivo.
+Preencher com `0001` para o primeiro lote do arquivo. Para os demais: número do lote anterior acrescido de 1. O número não poderá ser repetido dentro do arquivo.  
+Se registro for Header do Arquivo preencher com `0000`
+Se registro for Trailer do Arquivo preencher com `9999`
+
+
+
 | ID   | Nome | Descrição | 
 | ---  | ---  | ---  |
 | <a id="GNR.001">GNR.001</a> | Código da Empresa | Código que identifica a empresa no TEiACARD. Quando exista um  conjunto de empresas iniciar com código `001` e assim por diante consecutivamente. | 
 | <a id="GNR.002">GNR.002</a> | Lote de Serviço | <p>Número sequencial para identificar univocamente um lote de serviço. Criado e controlado pelo responsável pela geração magnética dos dados contidos no arquivo.</p><p>Preencher com `0001` para o primeiro lote do arquivo. Para os demais: número do lote anterior acrescido de 1. O número não poderá ser repetido dentro do arquivo. </p> <p>Se registro for Header do Arquivo preencher com `0000`</p><p>Se registro for Trailer do Arquivo preencher com `9999`</p> | 
+| <a id="GNR.002">GNR.002</a> | Lote de Serviço | | 
 | <a id="GNR.012">GNR.012</a> | Número sequencial do arquivo (NSA) | Número sequencial adotado e controlado pelo responsável pela geração do arquivo para ordenar a disposição dos arquivos encaminhados. Evoluir um número sequencial a cada header de arquivo | 
 | <a id="GNR.031">GNR.031</a> | Código da Bandeira | <p>Código que identifica a Bandeira do Cartão de Crédito ou de Débito utilizado para a realização da venda.</p><p>Ver [Tabela I](#TabelaI).</p>  | 
 
