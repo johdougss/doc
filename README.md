@@ -89,26 +89,36 @@ segmentos, dependendo do tipo de Serviço.
 
 | ID   | Campo                                      | Dê    | Até   | Qnt.  | Decimal | Formato | Padrão | Descrição |
 | ---  | ---                                        | ---:  | ---:  | ---:  | ---:  | :---: | ---     | ---     |
-| 01.2V | Código da Empresa                          | 1     | 3     | 3     | -     | N     |         | [GNR.001](#GNR.001) |
-| 02.2V | Lote de Serviço                            | 4     | 7     | 4     | -     | N     |         | [GNR.002](#GNR.002) |
-| 03.2V | Tipo de Registro                           | 8     | 8     | 1     | -     | N     | 2       | [GNR.003](#GNR.003) |
-| 04.2V | Tipo de Serviço                            | 9     | 10    | 2     | -     | N     |         | [GNR.017](#GNR.017) |
-| 05.2V | Número Sequencial do Registro no Lote      | 11    | 15    | 5     | -     | N     |         | [GNR.020](#GNR.020) |
-| 06.2V | Código do Segmento do Registro Detalhe     | 16    | 16    | 1     | -     | A     | V       | [GNR.021](#GNR.021) |
-| 07.2V | Uso Exclusivo Netunna                      | 17    | 17    | 1     | -     | A     |         | [GNR.004](#GNR.004) |
-| 08.2V | Tipo de Inscrição Empresa                  | 18    | 18    | 1     | -     | N     |         | [GNR.005](#GNR.005) |
-| 09.2V | Número de Inscrição da Empresa             | 19    | 34    | 14    | -     | N     |         | [GNR.006](#GNR.006) |
-| 10.2V | Código da Loja                             | 33    | 37    | 5     | -     | A     |         | [GNR.018](#GNR.018) |
-| 11.2V | Número do Estabelecimento na Adquirente    | 38    | 55    | 18    | -     | A     |         | [GNR.019](#GNR.019) |
-| 12.2V | Número do Caixa/Checkout                   | 56    | 61    | 6     | -     | A     |         | [GNR.022](#GNR.022) |
-| 13.2V | Número do PDV (Maquineta) na Adquirente    | 62    | 76    | 15    | -     | N     |         | [GNR.023](#GNR.023) |
-| 14.2V | Número do Cupom Fiscal / Número do Pedido  | 77    | 86    | 10    | -     | N     |         | [GNR.024](#GNR.024) |
-| 15.2V | Uso Exclusivo Netunna                      | 87    | 96    | 10    | -     | A     |         | [GNR.004](#GNR.004) |
-| 16.2V | Código da Autorização                      | 97    | 106   | 10    | -     | A     |         | [GNR.026](#GNR.026) |
-| 17.2V | Data da Venda                              | 107   | 114   | 8     | -     | N     |         | [GNR.027](#GNR.027) |
-| 18.2V | Hora da Venda                              | 115   | 120   | 6     | -     | N     |         | [GNR.028](#GNR.028) |
-| 19.2V | Valor Bruto da Venda                       | 121   | 130   | 10    | 2     | N     |         | [GNR.029](#GNR.029) |
-
+| 01.2V | Código da Empresa                         | 1     | 3     | 3     | -     | N     |         | [GNR.001](#GNR.001) |
+| 02.2V | Lote de Serviço                           | 4     | 7     | 4     | -     | N     |         | [GNR.002](#GNR.002) |
+| 03.2V | Tipo de Registro                          | 8     | 8     | 1     | -     | N     | 2       | [GNR.003](#GNR.003) |
+| 04.2V | Tipo de Serviço                           | 9     | 10    | 2     | -     | N     |         | [GNR.017](#GNR.017) |
+| 05.2V | Número Sequencial do Registro no Lote     | 11    | 15    | 5     | -     | N     |         | [GNR.020](#GNR.020) |
+| 06.2V | Código do Segmento do Registro Detalhe    | 16    | 16    | 1     | -     | A     | V       | [GNR.021](#GNR.021) |
+| 07.2V | Uso Exclusivo Netunna                     | 17    | 17    | 1     | -     | A     |         | [GNR.004](#GNR.004) |
+| 08.2V | Tipo de Inscrição Empresa                 | 18    | 18    | 1     | -     | N     |         | [GNR.005](#GNR.005) |
+| 09.2V | Número de Inscrição da Empresa            | 19    | 34    | 14    | -     | N     |         | [GNR.006](#GNR.006) |
+| 10.2V | Código da Loja                            | 33    | 37    | 5     | -     | A     |         | [GNR.018](#GNR.018) |
+| 11.2V | Número do Estabelecimento na Adquirente   | 38    | 55    | 18    | -     | A     |         | [GNR.019](#GNR.019) |
+| 12.2V | Número do Caixa/Checkout                  | 56    | 61    | 6     | -     | A     |         | [GNR.022](#GNR.022) |
+| 13.2V | Número do PDV (Maquineta) na Adquirente   | 62    | 76    | 15    | -     | N     |         | [GNR.023](#GNR.023) |
+| 14.2V | Número do Cupom Fiscal / Número do Pedido | 77    | 86    | 10    | -     | N     |         | [GNR.024](#GNR.024) |
+| 15.2V | Uso Exclusivo Netunna                     | 87    | 96    | 10    | -     | A     |         | [GNR.004](#GNR.004) |
+| 16.2V | Código da Autorização                     | 97    | 106   | 10    | -     | A     |         | [GNR.026](#GNR.026) |
+| 17.2V | Data da Venda                             | 107   | 114   | 8     | -     | N     |         | [GNR.027](#GNR.027) |
+| 18.2V | Hora da Venda                             | 115   | 120   | 6     | -     | N     |         | [GNR.028](#GNR.028) |
+| 19.2V | Valor Bruto da Venda                      | 121   | 130   | 10    | 2     | N     |         | [GNR.029](#GNR.029) |
+| 20.2V | Plano (Quantidade de Parcelas)            | 131   | 132   | 2     | -     | N     |         | [GNR.030](#GNR.030) |
+| 21.2V | Código da Bandeira                        | 133   | 135   | 3     | -     | N     |         | [GNR.031](#GNR.031) |
+| 22.2V | Número do Cartão (Truncado)               | 136   | 154   | 19    | -     | A     |         | [GNR.032](#GNR.032) |
+| 23.2V | Nome do Proprietário do Cartão            | 155   | 179   | 25    | -     | A     |         | [GNR.033](#GNR.033) |
+| 24.2V | Nome do Operador de Caixa                 | 180   | 204   | 25    | -     | A     |         | [GNR.034](#GNR.034) |
+| 25.2V | Indicador Programa Promocional            | 205   | 205   | 1     | -     | A     |         | [GNR.035](#GNR.035) |
+| 26.2V | Meio de Captura                           | 206   | 207   | 2     | -     | N     |         | [GNR.036](#GNR.036) |
+| 27.2V | Número POS (Maquineta) Adquirente         | 208   | 222   | 15    | -     | N     |         | [GNR.037](#GNR.037) |
+| 28.2V | Taxa de Comissão                          | 223   | 226   | 4     | 2     | N     |         | [GNR.038](#GNR.038) |
+| 29.2V | Número NSU / CV ou DOC                    | 227   | 246   | 20    | -     | A     |         | [GNR.025](#GNR.025) |
+| 30.2V | Uso Exclusivo Netunna                     | 247   | 300   | 54    | -     | A     |         | [GNR.004](#GNR.004) |
 
 # 4. Descrição dos campos
 
