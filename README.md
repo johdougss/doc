@@ -30,18 +30,19 @@ de cada fluxo de troca de informações.
    fluxo de troca de informações para a TRANSAÇÃO DE VENDAS COM
    CARTÕES.
   
-   - VENDAS CRÉDITO A VISTA ROTATIVO:
-   - VENDAS CRÉDITO PARCELADO:
-   - VENDAS DÉBITO A VISTA:
-   - VENDAS DÉBITO PRÉ-DATADO:
-   - ESTORNOS CRÉDITO A VISTA ROTATIVO:
-   - ESTORNOS CRÉDITO PARCELADO:
-   - ESTORNOS DÉBITO A VISTA:
-   - ESTORNOS DÉBITO PRÉ-DATADO:
-   - BAIXAS PARCELAS VENDAS CRÉDITO A VISTA ROTATIVO:
-   - BAIXAS PARCELAS VENDAS CRÉDITO PARCELADO:
-   - BAIXAS PARCELAS VENDAS DÉBITO A VISTA:
-   - BAIXA PARCELAS VENDAS DÉBITO PRÉ-DATADO:
+   - Vendas crédito a vista rotativo;
+   - Vendas crédito parcelado;
+   - Vendas débito a vista;
+   - Vendas débito pré-datado;
+   - Estornos crédito a vista rotativo;
+   - Estornos crédito parcelado;
+   - Estornos débito a vista;
+   - Estornos débito pré-datado;
+   - Baixas parcelas vendas crédito a vista rotativo;
+   - Baixas parcelas vendas crédito parcelado;
+   - Baixas parcelas vendas débito a vista;
+   - Baixa parcelas vendas débito pré-datado;
+   
  - DESCRIÇÃO DOS CAMPOS: Conceitua todos os campos componentes do
    layout dos registros utilizados em cada um dos tipos de serviço.
    Em cada layout de registro apresentado, é especificado o código da
@@ -54,6 +55,13 @@ de cada fluxo de troca de informações.
 ## 1.3. Manutenção das versões do manual
 
 A versão é identificada através de um código com a seguinte composição:
+
+`VV.RR` onde: `VV` (2 dígitos) = Número da versão e `RRR` (3 dígitos) = Número do release.
+
+> Release: Será alterado sempre que ocorrer alteração, exclusão ou inclusão de campos no LEIAUTE.
+
+> Versão de LEIAUTE de arquivo: Será alterado quando ocorrer inclusão ou
+  exclusão de serviços (lotes de serviços).
 
 # 2. Estrutura do Arquivo 
 
@@ -81,7 +89,16 @@ específicos, padrões para cada um dos tipos de Serviço.
 
 **Registros de Detalhe** : Um registro de detalhe é composto de um ou mais
 segmentos, dependendo do tipo de Serviço.
-...
+
+Existem vários tipos de segmentos diferentes e cada um deles pode ser utilizado
+em um ou mais lotes de Serviço, tanto nos fluxos de Remessa como nos fluxos
+de Retorno, conforme discriminados a seguir:
+
+
+| ID   | Segmentos Remessa | Segmentos Retorno |
+| ---  | --- | --- |
+| Vendas Crédito à Vista Rotativo  | V `Obrigatório` | V `Obrigatório` |
+|                                  |                 | B `Obrigatório` |
 
 ## 2.2. HEADER E TRAILER DO ARQUIVO
 
