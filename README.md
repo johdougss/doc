@@ -149,6 +149,22 @@ Domínio:
 | 3    | Trailer de Lote        |
 | 9    | Trailer de Arquivo     |
 
+#### <a id="GNR.004">GNR.004</a> - Uso exclusivo netunna
+
+Texto de observações destinado para uso exclusivo da NETUNNA.
+Preencher com Brancos.
+
+#### <a id="GNR.005">GNR.005</a> - Tipo de inscrição da empresa
+
+Código que identifica o tipo de inscrição da Empresa ou Pessoa
+Física perante uma Instituição governamental.
+
+Domínio:
+| ID   | Campo                  |
+| ---  | ---                    |
+| 0    | CPF                    |
+| 1    | CGC / CNPJ             |
+
 #### <a id="GNR.012">GNR.012</a> - Número sequencial do arquivo (NSA) 
 
 Número sequencial adotado e controlado pelo responsável pela geração do arquivo para ordenar a disposição dos arquivos encaminhados. Evoluir um número sequencial a cada header de arquivo 
