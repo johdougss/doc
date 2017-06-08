@@ -160,6 +160,7 @@ Código que identifica o tipo de inscrição da Empresa ou Pessoa
 Física perante uma Instituição governamental.
 
 Domínio:
+
 | ID   | Campo                  |
 | ---  | ---                    |
 | 0    | CPF                    |
